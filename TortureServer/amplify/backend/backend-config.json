@@ -1,0 +1,144 @@
+{
+  "api": {
+    "api9ecb818b": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "tortureserverb17bf9cf"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "apiba386392": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "tortureserver6668152e"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "tortureserver": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "AWS_LAMBDA",
+            "lambdaAuthorizerConfig": {
+              "lambdaFunction": "graphQlLambdaAuthorizerb296f26b",
+              "ttlSeconds": "300"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "function": {
+    "graphQlLambdaAuthorizerb296f26b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "tortureserver6668152e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "tortureserver9ee8d61f": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "tortureserverb17bf9cf": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "providerPlugin": "awscloudformation",
+      "service": "amplifyhosting",
+      "type": "manual"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_tortureserver6668152e_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tortureserver6668152e"
+        }
+      ]
+    },
+    "AMPLIFY_function_tortureserver6668152e_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tortureserver6668152e"
+        }
+      ]
+    },
+    "AMPLIFY_function_tortureserver9ee8d61f_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tortureserver9ee8d61f"
+        }
+      ]
+    },
+    "AMPLIFY_function_tortureserver9ee8d61f_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tortureserver9ee8d61f"
+        }
+      ]
+    },
+    "AMPLIFY_function_tortureserverb17bf9cf_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tortureserverb17bf9cf"
+        }
+      ]
+    },
+    "AMPLIFY_function_tortureserverb17bf9cf_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tortureserverb17bf9cf"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  }
+}

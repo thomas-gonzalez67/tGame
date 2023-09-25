@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "tortureserver6668152e",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

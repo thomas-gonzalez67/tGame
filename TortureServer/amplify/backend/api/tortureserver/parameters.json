@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "tortureserver",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-09-22T17:35:12.301Z"
+}

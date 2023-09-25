@@ -1,0 +1,2 @@
+C:\Users\crown\TortureServer\TortureServer\obj\Debug\TortureServer.esproj.SuggestedBindingRedirects.cache
+C:\Users\crown\TortureServer\TortureServer\obj\Debug\TortureServer.esproj.CoreCompileInputs.cache

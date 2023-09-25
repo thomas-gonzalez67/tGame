@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "tortureserver",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AWS_LAMBDA",
+      "lambdaFunction": "graphQlLambdaAuthorizerb296f26b",
+      "ttlSeconds": "300"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

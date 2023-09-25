@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tortureserver-dev-192132-authRole",
+      "UnauthRoleArn": "arn:aws:iam::678602113783:role/amplify-tortureserver-dev-192132-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::678602113783:role/amplify-tortureserver-dev-192132-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tortureserver-dev-192132-deployment",
+      "UnauthRoleName": "amplify-tortureserver-dev-192132-unauthRole",
+      "StackName": "amplify-tortureserver-dev-192132",
+      "StackId": "arn:aws:cloudformation:us-east-1:678602113783:stack/amplify-tortureserver-dev-192132/9aaf6b90-58d5-11ee-af1b-0e083bbbb2e7",
+      "AmplifyAppId": "d2ozdps94icysx"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2ozdps94icysx",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "tortureserverb17bf9cf": {
+          "deploymentBucketName": "amplify-tortureserver-dev-192132-deployment",
+          "s3Key": "amplify-builds/tortureserverb17bf9cf-5130422b4c3636677331-build.zip"
+        },
+        "tortureserver6668152e": {
+          "deploymentBucketName": "amplify-tortureserver-dev-192132-deployment",
+          "s3Key": "amplify-builds/tortureserver6668152e-38547576794b7639414e-build.zip"
+        },
+        "tortureserver9ee8d61f": {
+          "deploymentBucketName": "amplify-tortureserver-dev-192132-deployment",
+          "s3Key": "amplify-builds/tortureserver9ee8d61f-525964515a4d47736972-build.zip"
+        },
+        "graphQlLambdaAuthorizerb296f26b": {}
+      },
+      "api": {
+        "apiba386392": {},
+        "api9ecb818b": {},
+        "tortureserver": {}
+      }
+    }
+  }
+}
